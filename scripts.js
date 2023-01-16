@@ -18,3 +18,8 @@ const findState = function () {
     };
 
 document.querySelector('.findState').addEventListener('click', findState);
+
+//Locking the orientation of a screen(mostly for phones)
+screen.addEventListener("orientationchange", () => {
+  screen.orientation.lock();
+});
