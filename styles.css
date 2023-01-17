@@ -96,16 +96,17 @@ body {
         padding: .25em;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 60%;
+        width: 100%;
         top: 20%;
-        font-size: 8vw;
+        font-size: 10vw;
         z-index: 1;
+        text-align: center;
         color: white;
     }
 
     .wrapper .parent {
         position: fixed;
-        width: 35vw;
+        width: 45vw;
         height: 20vh;
         padding: 20px;
         top: 50%;
@@ -118,7 +119,7 @@ body {
     .wrapper .parent .child{
         position: fixed;
         padding: 0%;
-        width: 30vw;
+        width: 40vw;
         height: 5vh;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -142,7 +143,7 @@ body {
         width: 100%;
         font-family: 'Courier New', Courier, monospace;
         height: 100%;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         color: white;
         background-color: black;
         border-color: rgb(218, 111, 164);
